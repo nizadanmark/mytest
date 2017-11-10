@@ -1,0 +1,118 @@
+html{box-sizing:border-box;
+    background: url(images/UFC2.jpg) no-repeat center center fixed;
+    background-size:cover;
+    
+}
+
+
+body{
+    margin:0px 20px;
+    padding:0;
+}
+.mainevent-container{
+    font-variant: small-caps;
+    margin:100px auto;
+    width:620px;
+    height:200px;
+    
+    
+}
+
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+	/* Here write code which gives these 6 elements a visible border */
+	border: 2px solid black;
+    float:left;
+    width: 200px;
+    height: 100px;
+    background: url(images/conor.jpg) no-repeat center center fixed;
+    background-size:contain;
+    color:white;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0 auto;
+
+}
+
+nav ul li {
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 60px;
+    display: inline-block; 
+    font-weight: bold;
+    font-size:30px;
+    font-variant: small-caps;
+    
+    font-family: 'Asap', sans-serif;
+}
+
+
+a:active, a:visited, a:link{
+    
+   color:black;
+   text-decoration:none;
+   
+}
+nav ul li a:hover{
+    color:white;
+    border-bottom: 2px solid black;
+}
+
+.galleryvideo-container{
+    font-variant: small-caps;
+    margin:100px auto;
+    width:1100px;
+   
+  
+}
+.gallery-box, .video-box{
+    margin: 0 auto;
+    border: 2px solid black;
+    float:left;
+    width: 400px;
+    height:300px;
+}
+.gallery-box{
+    background: url(images/conor.jpg) no-repeat center center fixed;
+    background-size:contain;
+    color:white;
+    margin-left:100px;
+}
+.video-box{
+    background: url(images/conor.jpg) no-repeat center center fixed;
+    background-size:contain;
+    color:white;
+    margin-left:100px;
+}
+.rankstatsodds-container{
+    
+    font-variant: small-caps;
+    margin:100px auto;
+    width:1300px;
+
+}
+.rank-box, .stats-box, .odds-box{
+    color:white;
+    background: url(images/conor.jpg) no-repeat center center fixed;
+    background-size:contain;
+    margin: 100px auto;
+    border: 2px solid black;
+    float:left;
+    width: 400px;
+    height:300px;
+}
+.footer{
+    width:auto;
+    opacity:0.8 ;
+    background:white;
+   
+    border-top: 2px solid black;
+    clear:both;
+    font-variant: small-caps;
+  text-align: center;
+  padding-bottom: 100px;
+   
+}
